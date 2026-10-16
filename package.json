@@ -1,0 +1,24 @@
+{
+  "name": "trap-architect",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A turn-based 2D puzzle game: solve rooms, build your own, challenge friends with shareable links.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "solve": "vite-node scripts/solve-levels.ts"
+  },
+  "dependencies": {
+    "phaser": "3.90.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "~6.4.1",
+    "vite-node": "~3.2.4",
+    "vitest": "~3.2.4"
+  }
+}

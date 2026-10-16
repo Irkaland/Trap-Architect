@@ -1,0 +1,42 @@
+# Dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+*.tsbuildinfo
+.vite/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment files, keys and other secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+.npmrc
+secrets/
+*.secret
+*token*.json
+credentials*.json
+
+# Hosting CLI state (may hold project/account IDs)
+.vercel/
+.netlify/
+.wrangler/
+
+# Local tool settings
+.claude/settings.local.json
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
